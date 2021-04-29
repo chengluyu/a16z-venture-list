@@ -1,15 +1,22 @@
 # a16z Venture List
 
+Download the latest companies in [Andreessen Horowitz][a16z]’s portfolios.
+
 ## Usage
 
-```javascript
-import { fetch } from "a16z-venture-list";
+1. Install the package.
+    * `npm i a16z-venture-list`
+    * `pnpm add a16z-venture-list`
+    * `yarn add a16z-venture-list`
+2. Import and use.
+    ```javascript
+    import { fetch } from "a16z-venture-list";
 
-async function myGreatWork() {
-  const companies = await fetch();
-  console.log(companies);
-}
-```
+    async function myGreatWork() {
+      const companies = await fetch();
+      console.log(companies);
+    }
+    ```
 
 ## References
 
@@ -37,3 +44,7 @@ export type Company = {
 - `save(data: Object, filePath?: string): Promise<void>`: save data. The default destination is `./latest.json`.
 
 [a16z]: https://a16z.com
+
+## License
+
+MIT
