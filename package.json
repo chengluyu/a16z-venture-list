@@ -1,11 +1,9 @@
 {
   "name": "a16z-venture-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "fetch": "node src/fetch.mjs",
-    "serve": "node src/server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,8 +11,8 @@
     "url": "git+https://github.com/chengluyu/a16z-venture-list.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Luyu Cheng",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chengluyu/a16z-venture-list/issues"
   },
@@ -32,10 +30,10 @@
   "files": [
     "package.json",
     "README.md",
-    "lib/compare.mjs",
-    "lib/fetch.mjs",
-    "lib/latest.mjs",
-    "lib/index.mjs",
+    "lib/compare.js",
+    "lib/fetch.js",
+    "lib/latest.js",
+    "lib/index.js",
     "lib/index.d.ts"
   ]
 }
