@@ -9,8 +9,9 @@ export type Company = {
   url: string | null;
   hostname: string | null;
   subcategory: string | null;
-  logo: string | null
-}
+  logo: string | null;
+  logos: { url: string; width: number }[];
+};
 ```
 
 ## Functions
