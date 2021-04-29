@@ -32,7 +32,7 @@ export type Company = {
 ### Functions
 
 - `compare(oldCompanies: Company[], newCompanies: Company[]): Company[]`: a pure function that finds `Company`s in `newCompanies` that not in `oldCompanies`
-- `fetch(): Promise<Company[]>`: download the latest companies in from [Andreessen Horowitz][a16z], it will also cache data at `data/latest.json`.
+- `fetch(): Promise<Company[]>`: download the latest companies in from [Andreessen Horowitz][a16z].
 - `load(filePath?: string): Promise<Company[] | null>`: load the saved data. The default source is `./latest.json`. It returns `null` if the file does not exist.
 - `save(data: Object, filePath?: string): Promise<void>`: save data. The default destination is `./latest.json`.
 
